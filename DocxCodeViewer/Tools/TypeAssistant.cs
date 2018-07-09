@@ -3,6 +3,11 @@ using System.Threading;
 
 namespace DocxCodeViewer.Tools
 {
+
+   /*
+    * source : Code from : https://stackoverflow.com/a/33777265 
+    * 
+    */
     public class TypeAssistant
     {
         public event EventHandler Idled = delegate { };
